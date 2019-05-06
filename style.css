@@ -1,0 +1,195 @@
+/*
+colors:
+blue : #253342
+red : #9e4040
+gray: #cccccc
+light-gray: #f2f4f4
+
+*/
+/*
+#hero{
+    width: 2442px;
+    height: 290px;
+    background: url(imgs/img4.jpg) no-repeat center center;
+   
+}*/
+
+
+
+
+#menu{
+    height: 85px;
+    width: 100%;
+    background-color: #253342;
+    color: white;
+    display: block;
+    text-align: center;
+    
+    
+  /*  position: fixed; */
+    
+}
+#logo{
+    float: left;
+    line-height: 60px;
+    padding-left: 20px;
+    
+}
+.menu-item{
+    float: left;
+    padding: 10px;
+    list-style-type: none;
+    line-height: 40px;
+}
+.menu-all .menu-item:hover{
+    background-color: #9e4040;
+}
+.menu-all{
+    float: right;
+    padding-right: 20px;
+}
+
+
+
+#about {
+    
+    height: 400px;
+    width: 550px;
+    margin: 50px;
+    text-align: center;
+    margin: 0 auto;
+    
+    
+}
+
+.cta {
+    width: 190px;
+    height: 50px;
+    margin: 20px;
+    border-radius: 30px;
+    background-color: #253342;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 5px #999;
+    border: none; 
+    cursor: pointer;
+    transition-duration: 0.08s;
+    
+}
+.cta.tutorials{
+     background-color: #999;
+    box-shadow: 0 5px  black; 
+    color: white;
+    
+    
+}
+
+.cta:active{
+    box-shadow: 0px 0px #666;
+    transform: translateY(5px);
+}
+
+.about-p {
+    padding-top: 10px;
+    line-height: 1.9;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+#h1-hed {
+    margin: 0;
+}
+#tutorials {
+    background-color: #253342;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+   
+}
+#tutorials h1{
+    color:white;
+     
+}
+.row{
+    
+    width;90px;
+    margin: 50px auto;
+    
+} 
+
+.col-3 {
+    
+    width: 32%; 
+    float: left; 
+    margin-right: 1%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+}
+
+.col-left{
+    margin-left: 1%;
+}
+
+.img-col{
+    height: 146;
+    border: 1px #cccccc solid;
+    border-radius: 15px;
+    box-shadow: 0px 5px 16px black;
+    width: 100%;
+    max-width: 260px;
+    
+}
+
+.tut-header{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#youtube {
+    text-align: center;
+    padding: 50px 0;
+}
+.video {
+    width: 650px;
+    min-height: 350px;
+}
+
+#contact {
+    text-align: center;
+    background-color: #f2f4f4;
+    padding: 50px 0; 
+    height:650px;
+    
+}
+ 
+
+
+.col{
+    width: 50%;
+    float: left;
+    margin: 15px;
+}
+#wsfooter{
+    clear: both;
+    text-align: center;
+    background-color: #253342;
+    color: white;
+    padding: 30px;
+}
+input[type="text"], textarea {
+    background-color: white;
+    width: auto;
+    height: 40px;
+    border: 1px solid #999;
+    border-radius: 15px;
+    margin: 5px 0;
+    direction: rtl;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+textarea{
+    height: auto;
+}

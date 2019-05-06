@@ -1,0 +1,150 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <!-- Basics HTML5 -->
+        <meta charset="utf-8">
+        <meta name="author" content="Khaled Nada">
+        <meta name="description" content="Learn Wed design">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="shortcut icon" href="imgs/favicon.ico">
+        <!-- My Code -->
+        <title>Khaled Aud Nada</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <!-- WEBSITE -->
+
+    <body>
+        <div id="container">
+            <!-- Main Menu -->
+            <nav id="menu">
+                <h1 id="logo"> Khaked Nada</h1>
+                <ul class="menu-all">
+                    <li class="menu-item"><a href="#"> Home</a></li>
+                    <li class="menu-item"><a href="#">About</a></li>
+                    <li class="menu-item"><a href="#">Tutorials</a></li>
+                    <li class="menu-item"><a href="#">Youtube</a></li>
+                    <li class="menu-item"><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- Hero Img -->
+            <div id="hero">
+
+            </div>
+
+            <!-- About -->
+            <section id="about">
+                <h1 id="h1-hed">ماذا تريد أن تتعلم</h1>
+                <div>
+                    <p class="about-p">
+                        هذه الصفحة الرسمية للمدرس خالد ابو ندي ستجد في هذه الصفحة
+                        دروسا في البرمجة وتصميم الويب ما عليك الا ان تتخد قرارك
+                        في ما ترد تعلمه هنا واذا كنت لا تعلم ما تريد اضغط على الزر لتجد المسار التعليمي المناسب لك
+                    </p>
+                </div>
+                <button class="cta">اضغط هنا</button>
+            </section>
+
+            <!-- TUtorials -->
+            <section id="tutorials">
+                <h1>دروس في تصميم المواقع</h1>
+                <div class="row">
+
+                    <!-- HTML col -->
+                    <div class="col-3 col-left">
+                        <header class="tut-header"> HTML </header>
+                        <img class="img-col" src="imgs/img-html.png" alt="Html">
+                        <footer>
+                            <p>
+                                Okay, so this is the only bit of mandatory theory In order<br>
+                                to begin to write HTML, itHTML is the language in which<br> most
+                                HTML is the language in which most websites<br> are written
+                                The code used to make them visually appealing is<br> known as.
+                            </p>
+                        </footer>
+                    </div>
+
+                    <!-- CSS col -->
+                    <div class="col-3">
+                        <header class="tut-header">Css</header>
+                        <img class="img-col" src="imgs/img-css.jpg" alt="Css">
+                        <footer>
+                            <p>
+                                Cascading Style Sheets (CSS) is a style sheet language used for<br> describing the presentation of a document written in a<br> markup language like HTML.[1] CSS is a hnology of the World<br>of Wide Web, alongside HTML and code used <br> JavaScript.
+
+                            </p>
+                        </footer>
+                    </div>
+
+                    <!-- JS -->
+                    <div class="col-3">
+                        <header class="tut-header">javascript</header>
+                        <img class="img-col" src="imgs/img-js.png" alt="javascript">
+                        <footer>
+                            <p>
+                                The tec world waits for no one and even the most popula software<br> languages and frameworks don’t stay relevant forever<br>Enter the Pluralsight Technology Index The Pluralsight<br> Technology Index pulls from nearly 8 billion data<br> points to .
+
+                            </p>
+                        </footer>
+                    </div>
+                </div>
+                <button class="cta tutorials"> اضغط هنا</button>
+            </section>
+
+            <!-- Youtube -->
+            <section id="youtube">
+                <h1>من هنا نبدأ</h1>
+                <div class="row">
+                <div class="vidroframe">
+                    <iframe class="video" src="https://www.youtube.com/embed/UJvL4i6UPbY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>   
+                </div>
+            </section>
+
+            <!-- Contact -->
+            <section id="contact">
+                <h1>هل انت مهتم بالتواصل</h1>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="col">
+                            <div style="overflow:hidden;width: 450px;position: relative;"><iframe width="450" height="400" src="https://maps.google.com/maps?width=450&amp;height=400&amp;hl=en&amp;q=Gaza+(My%20Business)&amp;ie=UTF8&amp;t=&amp;z=12&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                                <div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/de/">Embedgooglemaps.com/de/</a> & <a href="http://abtof.org.uk/">cheapflightwebsites</a></small></div>
+                                <style>
+                                    #gmap_canvas img {
+                                        max-width: none !important;
+                                        background: none !important
+                                    }
+                                </style>
+                            </div><br />
+                        </div>
+
+                        <form action="#" method="post">
+                            <input id="name" class="input" name="name" type="text" value="الاسم" size="30"><br>
+
+                            <input id="name" class="input" name="email" type="text" value="الايميل" size="30"><br>
+
+                            <input id="name" class="input" name="website" type="text" value="الموقع الالكتروني" size="30"><br>
+
+                            <textarea id="message" class="input" name="message" rows="8" cols="30"></textarea><br>
+                            <input id="submit" class="cta" type="submit" value="ارسال">
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <section id="wsfooter">
+                <footer>
+                    <p>جميع الحقوق محفوظة لصاحب الموقع</p>
+                    <p>Tel: 120150163 | Fax: 059251063 | <a href="mailto:khaled.nada223@gmail.com">Email:khaled.nada223@gmail.com</a>
+
+                    </p>
+                </footer>
+            </section>
+        </div>
+
+        <!-- SCRIPTS -->
+        <script src"https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script> <script src"js/script.js"> </script> </body> </html>
